@@ -1,0 +1,128 @@
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(115, 178, 221);
+    padding: 40px
+  
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul{
+    
+    list-style: none;
+    padding-left: 370px;
+    
+     
+}
+.menu ul li {
+    display: inline;
+    background-color: rgb(115, 178, 221);
+    
+} 
+
+.menu li {
+    padding: 20px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+#banner {
+    width: 400px;
+    height: 400px;
+
+}
+
+h2 {
+
+    text-align: center;
+    background-color: rgb(115, 178, 221);
+ }
+   
+    
+ .eiffel {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    
+}
+.coliseu { 
+    display: flex; 
+    align-items: center; 
+    margin: 20px;
+} 
+
+.belem {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.bigben {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 40px 10px;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    padding: 70px;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+        
+
+}
+
+.cards img{
+    width: 200px;
+    height: 200px;
+    padding: 20px 30px 10px;
+    
+}
+
+.inicio {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+     
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
